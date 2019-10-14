@@ -35,6 +35,65 @@
 		width: 20px;
 		height: 20px;
 	}
+	.arrow {
+		position: absolute;
+		top: 16px;
+		left: 32px;
+		width: 68px;
+		height: 68px;
+	}
+	.main {
+		position: absolute;
+		top: 95px;
+		left: 31px;
+		width: 70px;
+		height: 70px;
+	}
+	.oeil {
+		position: absolute;
+		top: 171px;
+		left: 27px;
+		width: 68px;
+		height: 63px;
+		border: 5px red solid;
+		border-radius: 5px;
+	}
+	.outil {
+		position: absolute;
+		top: 250px;
+		left: 32px;
+		width: 70px;
+		height: 70px;
+	}
+	.chat {
+		position: absolute;
+		top: 330px;
+		left: 30px;
+		width: 71px;
+		height: 69px;
+	}
+	.book {
+		position: absolute;
+		top: 16px;
+		left: 37px;
+		width: 67px;
+		height: 92px;
+	}
+	.towel {
+		position: absolute;
+		top: 122px;
+		left: 37px;
+		width: 66px;
+		height: 50px;
+	}
+	.brick {
+		position: absolute;
+		top: 178px;
+		left: 10px;
+		width: 120px;
+		height: 70px;
+		background: url(resources/brick.jpg) repeat;
+	}
 	.border {
 		box-shadow: 10px 10px 5px black;
 		border-radius: 10px;
@@ -77,20 +136,32 @@
 	</style>
 </header>
 <body>
-	<div class="top">
+	<div class="border top">
 		<img class="doft" src="resources/day_of_the_42.png">
 		<img class="loupe" src="resources/loupe.png">
 		<img class="close" src="resources/close.gif">
 		<img class="reload" src="resources/reload.png">
 	</div>
-	<div class="border left">
+	<div class="order left">
+		<img class="arrow" src="resources/arrow.png">
+		<img class="main" src="resources/main.png">
+		<img class="oeil" src="resources/oeil.png">
+		<img class="outil" src="resources/outil.png">
+		<img class="chat" src="resources/chat-icon.png">
 	</div>
 	<div class="border middle">
 		<img class="cluster" src="resources/cluster.jpg">
 	</div>
 	<div class="border right">
+		<img class="book" src="resources/book.png">
+		<img class="towel" src="resources/towel.png">
+		<div class="brick" src="resources/brick.jpg">
+		</div>
 	</div>
 	<div class="border down">
+		<p>Vous entrez alors dans une grande piece remplie d'ordinateurs...</p>
+		<br>
+		<p>- Bonjour, vous êtes nouveau ici ?
 	</div>
 </body>
 </html>
