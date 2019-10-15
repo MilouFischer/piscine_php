@@ -1,167 +1,51 @@
 <html>
 <header>
 	<title>Day of the 42</title>
-	<style>
-	body {
-		background-image: url(resources/doft.jpg);
-		background-repeat: no-repeat;
-		background-position: -87px -77px;
-		background-color: #505050;
-	}
-	.doft {
-		height: 110;
-		border-radius: 10px;
-		margin: 11px 11px;
-	}
-	.cluster {
-		width: 998px;
-		height: 562px;
-		margin: 11px 11px;
-	}
-	.loupe {
-		position: absolute;
-		top: 27px;
-		left: 1285px;
-	}
-	.close {
-		position: absolute;
-		top: 125px;
-		left: 1541px;
-	}
-	.reload {
-		position: absolute;
-		top: 27px;
-		left: 1541px;
-		width: 20px;
-		height: 20px;
-	}
-	.arrow {
-		position: absolute;
-		top: 16px;
-		left: 32px;
-		width: 68px;
-		height: 68px;
-	}
-	.main {
-		position: absolute;
-		top: 95px;
-		left: 31px;
-		width: 70px;
-		height: 70px;
-	}
-	.oeil {
-		position: absolute;
-		top: 171px;
-		left: 27px;
-		width: 68px;
-		height: 63px;
-		border: 5px red solid;
-		border-radius: 5px;
-	}
-	.outil {
-		position: absolute;
-		top: 250px;
-		left: 32px;
-		width: 70px;
-		height: 70px;
-	}
-	.chat {
-		position: absolute;
-		top: 330px;
-		left: 30px;
-		width: 71px;
-		height: 69px;
-	}
-	.book {
-		position: absolute;
-		top: 16px;
-		left: 37px;
-		width: 67px;
-		height: 92px;
-	}
-	.towel {
-		position: absolute;
-		top: 122px;
-		left: 37px;
-		width: 66px;
-		height: 50px;
-	}
-	.brick {
-		position: absolute;
-		top: 178px;
-		left: 10px;
-		width: 120px;
-		height: 70px;
-		background: url(resources/brick.jpg) repeat;
-	}
-	.border {
-		box-shadow: 10px 10px 5px black;
-		border-radius: 10px;
-		background-color: #909090;
-	}
-	.top {
-		width: 1420px;
-		height: 135px;
-		margin: 20px 143px;
-	}
-	.left {
-		position: absolute;
-		top: 175px;
-		left: 182px;
-		width: 141px;
-		height: 425px;
-	}
-	.middle {
-		position: absolute;
-		top: 175px;
-		left: 351px;
-		width: 1020px;
-		height: 583px;
-	}
-	.right {
-		position: absolute;
-		top: 175px;
-		left: 1401px;
-		width: 142px;
-		height: 427px;
-	}
-	.down {
-		position: absolute;
-		top: 681px;
-		left: 107px;
-		width: 522px;
-		height: 170px;
-		background-color: #88FF89;
-	}
-	</style>
+	<link rel="stylesheet" href="doft.css">
 </header>
 <body>
 	<div class="border top">
-		<img class="doft" src="resources/day_of_the_42.png">
-		<img class="loupe" src="resources/loupe.png">
-		<img class="close" src="resources/close.gif">
-		<img class="reload" src="resources/reload.png">
+		<img class="doft" src="resources/day_of_the_42.png" title="day_of_the_42" alt="day_of_the_42">
+		<img class="loupe" src="resources/loupe.png" title="loupe" alt="loupe">
+		<a href="http://www.relaischateaux.com/" style="width: 40px; height: 40px;">
+			<img class="close" src="resources/close.gif" title="close" alt="close">
+		</a>
+		<a href="http://www.disney.com/" style="width: 40px; height: 40px;">
+			<img class="reload" src="resources/reload.png" title="reload" alt="reload">
+		</a>
 	</div>
 	<div class="order left">
-		<img class="arrow" src="resources/arrow.png">
-		<img class="main" src="resources/main.png">
-		<img class="oeil" src="resources/oeil.png">
-		<img class="outil" src="resources/outil.png">
-		<img class="chat" src="resources/chat-icon.png">
+		<img class="arrow" src="resources/arrow.png" title="Avancer" alt="arrow">
+		<img class="main" src="resources/main.png" title="Prendre" alt="main">
+		<img class="oeil" src="resources/oeil.png" title="Regarder" alt="oeil">
+		<img class="outil" src="resources/outil.png" title="Utiliser" alt="outil">
+		<img class="chat" src="resources/chat-icon.png" title="Parler" alt="chat">
 	</div>
 	<div class="border middle">
-		<img class="cluster" src="resources/cluster.jpg">
+		<img class="cluster" src="resources/cluster.jpg" title="cluster" alt="cluster">
+		<a href="http://www.ikea.com/">
+			<div class="chair"></div>
+		</a>
+		<a href="http://www.apple.com/">
+			<div class="pc"></div>
+		</a>
 	</div>
 	<div class="border right">
-		<img class="book" src="resources/book.png">
-		<img class="towel" src="resources/towel.png">
-		<div class="brick" src="resources/brick.jpg">
+		<img class="book" src="resources/book.png" title="livre" alt="book">
+		<img class="towel" src="resources/towel.png" title="serviette" alt="towel">
+		<div class="brick" src="resources/brick.jpg" title="mur" alt="brick">
 		</div>
 	</div>
 	<div class="border down">
-		<p>Vous entrez alors dans une grande piece remplie d'ordinateurs...</p>
-		<br>
-		<p>- Bonjour, vous êtes nouveau ici ?
+		<p style="font-family: verdana;">
+			Vous <span style="font-size: 2em; font-family: georgia">entrez</span> alors dans une grande piece remplie d'<span style="text-shadow: 4px 4px 6px red">ordinateurs</span>...
+			<br>
+			<i>- Bonjour, vous êtes nouveau ici ?</i>
+		</p>
+		<form>
+			<input class="input">
+			<button class="answer">Repondre</button>
+		</form>
 	</div>
 </body>
 </html>

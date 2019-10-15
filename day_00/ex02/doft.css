@@ -1,0 +1,167 @@
+body {
+	background-image: url(resources/doft.jpg);
+	background-repeat: no-repeat;
+	background-position: -87px -77px;
+	background-color: #505050;
+}
+.doft {
+	height: 110;
+		border-radius: 10px;
+	margin: 11px 11px;
+}
+.cluster {
+	width: 998px;
+	height: 562px;
+	margin: 11px 11px;
+}
+.loupe {
+	position: absolute;
+	top: 27px;
+	left: 1285px;
+}
+.close {
+	position: absolute;
+	top: 125px;
+	left: 1541px;
+}
+.reload {
+	position: absolute;
+	top: 27px;
+	left: 1541px;
+	width: 20px;
+	height: 20px;
+}
+.arrow {
+	position: absolute;
+	top: 16px;
+	left: 32px;
+	width: 68px;
+	height: 68px;
+}
+.main {
+	position: absolute;
+	top: 95px;
+	left: 31px;
+	width: 70px;
+	height: 70px;
+}
+.oeil {
+	position: absolute;
+	top: 171px;
+	left: 27px;
+	width: 68px;
+	height: 63px;
+	border: 5px red solid;
+	border-radius: 5px;
+}
+.outil {
+	position: absolute;
+	top: 250px;
+	left: 32px;
+	width: 70px;
+	height: 70px;
+}
+.chat {
+	position: absolute;
+	top: 330px;
+	left: 30px;
+	width: 71px;
+	height: 69px;
+}
+.book {
+	position: absolute;
+	top: 16px;
+	left: 37px;
+	width: 67px;
+	height: 92px;
+}
+.towel {
+	position: absolute;
+	top: 122px;
+	left: 37px;
+	width: 66px;
+	height: 50px;
+}
+.brick {
+	position: absolute;
+	top: 178px;
+	left: 10px;
+	width: 120px;
+	height: 70px;
+	background: url(resources/brick.jpg) repeat;
+}
+.border {
+	box-shadow: 10px 10px 5px black;
+	border-radius: 10px;
+	background-color: #909090;
+}
+.top {
+	width: 1420px;
+	height: 135px;
+	margin: 20px 143px;
+}
+.left {
+	position: absolute;
+	top: 175px;
+	left: 182px;
+	width: 141px;
+	height: 425px;
+}
+.middle {
+	position: absolute;
+	top: 175px;
+	left: 351px;
+	width: 1020px;
+	height: 583px;
+}
+.right {
+	position: absolute;
+	top: 175px;
+	left: 1401px;
+	width: 142px;
+	height: 427px;
+}
+.down {
+	position: absolute;
+	top: 681px;
+	left: 107px;
+	width: 522px;
+	height: 170px;
+	background-color: #88FF89;
+	padding: 0px 11px;
+}
+.input {
+	width: 382px;
+	height: 21px;
+	background-color: white;
+	border-top: 2px solid grey;
+	border-bottom: 2px solid #EEEEEE;
+	border-left: 2px solid grey;
+	border-right: 2px solid #EEEEEE;
+	bottom: 30px;
+}
+.answer {
+	width: 77px;
+	height: 21px;
+	background-color: #F3F3F3;
+	font-size: 0.8em;
+	border: 1px solid grey;
+	border-radius: 1px;
+	margin-left: 5px;
+}
+.chair {
+	position: absolute;
+	top: 330px;
+	left: 330px;
+	width: 150px;
+	height: 230px;
+	border: 2px red solid;
+}
+.pc {
+	position: absolute;
+	top: 325px;
+	left: 800px;
+	width: 180px;
+	height: 130px;
+	border: 2px red solid;
+}
