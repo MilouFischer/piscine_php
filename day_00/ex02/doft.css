@@ -155,7 +155,6 @@ body {
 	left: 330px;
 	width: 150px;
 	height: 230px;
-	border: 2px red solid;
 }
 .pc {
 	position: absolute;
@@ -163,5 +162,4 @@ body {
 	left: 800px;
 	width: 180px;
 	height: 130px;
-	border: 2px red solid;
 }
