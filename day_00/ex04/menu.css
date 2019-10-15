@@ -1,0 +1,57 @@
+body {
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu26e8SYQmmZpcIIO62jCJhhn-oM8TQOXc6rHZ5JthhVjJ-s5b);
+}
+.top {
+	background-image: url(https://us.123rf.com/450wm/prapann/prapann1509/prapann150900072/44588613-fonc%C3%A9-fond-gris-ardoise-noire-ou-la-texture-.jpg?ver=6);
+	top: 0px;
+	left: 0px;
+	width: 99vw;
+	height: 300px;
+}
+.center {
+	position: relative;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.menu_name {
+	font-size: 5em;
+	color: yellow;
+	font-family: 'snell roundhand';
+	text-align: center;
+}
+.menu {
+	position: relative;
+	display: inline-block;
+}
+.list {
+	background-color: lightblue;
+	width: 10vw;
+	margin: 0px 11vw;
+	padding: 20px 0px;
+	text-align: center;
+	border: 5px solid gold;
+	border-radius: 10px;
+}
+.menu-content {
+	display: none;
+	position: absolute;
+	background-color: lightgrey;
+	width: 10vw;
+	margin: 0px 11vw;
+	border: 5px solid silver;
+	border-radius: 10px;
+}
+.menu-content a {
+	color: black;
+	padding: 10px 0px;
+	text-align: center;
+	display: block;
+}
+.menu-content a:hover {
+	background-color: #ddd;
+}
+.menu:hover .menu-content {
+	display: block;
+}
+
