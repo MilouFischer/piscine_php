@@ -7,6 +7,9 @@ function	ft_split($str)
 }
 
 $array = array();
+$alpha = array();
+$num = array();
+$spec = array();
 if ($argc < 2)
 	return ;
 foreach ($argv as $elem)
@@ -19,26 +22,34 @@ foreach ($argv as $elem)
 	else
 		$array = $array.$elem;
 }
-natcasesort($array);
 foreach($array as $elem)
 {
 	if ($elem == $array[0])
 		continue ;
 	if (ctype_alpha($elem[0]) == TRUE)
-		echo "$elem\n";
+		array_push($alpha, $elem);
 }
 foreach($array as $elem)
 {
 	if ($elem == $array[0])
 		continue ;
 	if (is_numeric($elem[0]) == TRUE)
-		echo "$elem\n";
+		array_push($num, $elem);
 }
 foreach($array as $elem)
 {
 	if ($elem == $array[0])
 		continue ;
 	if (preg_match("#[^a-zA-Z0-9]#", $elem[0]) == TRUE)
-		echo "$elem\n";
+		array_push($spec, $elem);
 }
+natcasesort($alpha);
+sort($num, SORT_STRING);
+sort($spec);
+foreach ($alpha as $elem)
+	print($elem."\n");
+foreach ($num as $elem)
+	print($elem."\n");
+foreach ($spec as $elem)
+	print($elem."\n");
 ?>
