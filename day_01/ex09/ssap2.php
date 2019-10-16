@@ -24,21 +24,21 @@ foreach($array as $elem)
 {
 	if ($elem == $array[0])
 		continue ;
-	if (ctype_alpha($elem) == TRUE)
+	if (ctype_alpha($elem[0]) == TRUE)
 		echo "$elem\n";
 }
 foreach($array as $elem)
 {
 	if ($elem == $array[0])
 		continue ;
-	if (is_numeric($elem) == TRUE)
+	if (is_numeric($elem[0]) == TRUE)
 		echo "$elem\n";
 }
 foreach($array as $elem)
 {
 	if ($elem == $array[0])
 		continue ;
-	if (preg_match("#[^a-zA-Z0-9]#", $elem) == TRUE)
+	if (preg_match("#[^a-zA-Z0-9]#", $elem[0]) == TRUE)
 		echo "$elem\n";
 }
 ?>
