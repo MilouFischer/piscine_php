@@ -30,8 +30,16 @@ if (preg_match("/\-/", $str) == TRUE)
 if (preg_match("/\*/", $str) == TRUE)
 	echo $tab[0] * $tab[1];
 if (preg_match("/\//", $str) == TRUE)
+{
+	if ($tab[1] == 0)
+		exit();
 	echo $tab[0] / $tab[1];
+}
 if (preg_match("/\%/", $str) == TRUE)
+{
+	if ($tab[1] == 0)
+		exit();
 	echo $tab[0] % $tab[1];
+}
 echo "\n";
 ?>
